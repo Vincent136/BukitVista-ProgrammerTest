@@ -1,0 +1,8 @@
+{
+    "image" : "./images/thumbnail.jpg",
+    "guestName" : "John Doe",
+    "propertyName" : "",
+    "checkInDate" : "28/01/2023",
+    "checkOutDate" : "31/01/2023",
+    "arrivalTime" : ""
+}

@@ -1,15 +1,12 @@
 const options = [
-  {
-    key: 'githubSearch',
-    label: 'sidebar.githubSearch',
-    leftIcon: 'ion-social-github'
-  },
-
   // add Guest Details to the sidebar
   {
     key: 'guest_detail',
-    label: 'sidebar.guestDetail',
-    leftIcon: 'ion-document'
+    label: 'sidebar.guestDetail'
+  },
+  {
+    key: 'test_api',
+    label: 'sidebar.test_api'
   }
 ];
 export default options;
