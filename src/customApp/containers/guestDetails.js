@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import LayoutContentWrapper from "../../components/utility/layoutWrapper.js";
 import LayoutContent from "../../components/utility/layoutContent";
 import PageHeader from '../../components/utility/pageHeader';
@@ -15,7 +15,7 @@ export default function guestDetails() {
     // Check if input is valid, only allow uppercase letters and numbers
     const valid = /^[A-Z0-9]+$/.test(value)
     if (!valid) {
-      if (value.length == 0) {
+      if (value.length === 0) {
         setMessage("Please type something");
       } else {
         setMessage("Input not valid");

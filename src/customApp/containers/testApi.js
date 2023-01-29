@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import LayoutContentWrapper from "../../components/utility/layoutWrapper.js";
 import LayoutContent from "../../components/utility/layoutContent";
 import PageHeader from '../../components/utility/pageHeader';
