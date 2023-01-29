@@ -83,7 +83,7 @@
     "styled-theme": "^0.3.3",
     "uppy": "0.18.0"
   },
-  "engine" : {
+  "engines" : {
     "node" : ">=8.0.0 <9.0.0"
   },
   "devDependencies": {
